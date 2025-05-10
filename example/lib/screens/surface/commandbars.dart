@@ -280,7 +280,7 @@ ConstrainedBox(
               compactBreakpointWidth: 600,
               primaryItems: [
                 ...simpleCommandBarItems,
-                const CommandBarSeparator(direction: Axis.horizontal),
+                const CommandBarSeparator(),
                 ...moreCommandBarItems,
               ],
             ),
@@ -764,7 +764,7 @@ ConstrainedBox(
                       overflowBehavior: CommandBarOverflowBehavior.scrolling,
                       primaryItems: [
                         ...simpleCommandBarItems,
-                        const CommandBarSeparator(direction: Axis.horizontal),
+                        const CommandBarSeparator(),
                         ...moreCommandBarItems,
                       ],
                     ),
@@ -906,7 +906,7 @@ ConstrainedBox(
                       overflowItemAlignment: MainAxisAlignment.end,
                       primaryItems: [
                         ...simpleCommandBarItems,
-                        const CommandBarSeparator(direction: Axis.horizontal),
+                        const CommandBarSeparator(),
                         ...moreCommandBarItems,
                       ],
                       secondaryItems: evenMoreCommandBarItems,
